@@ -1,42 +1,75 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
-	<!-- meta -->
+	<!-- Meta -->
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>
+		NARAS
+	</title>
+	<!-- style.css -->
+	<link rel="stylesheet" href="style.css">
 
-	<!-- Favicon -->
-	  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+	<!-- baffle.js cdn -->
+	<script src="https://cdn.jsdelivr.net/npm/baffle@0.3.6/dist/baffle.min.js"></script>
 
 	<!-- google font -->
-	<link href="https://fonts.googleapis.com/css?family=Anton|Open+Sans+Condensed:300" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Russo+One|Thasadith" rel="stylesheet">  
 
-	<!-- bootsstrap -->
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-
-	<!-- css -->
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css">
-	
 </head>
 <body>
+	<h1 class="zero ani"><b>you</b> <span>are on</span> </h1>
+	
 	<div class="container">
-		<div class="row">
-			<div class="col-lg-12">
-				<h1 class="animated bounce">
-				<p  class="mainheading">guess what? </p></h1>
-				<p class="subheading animated zoomIn">sometimes all you need to do is press a button! </p>
-			
-				
-				<div class="text-center animated fadeIn">
-					<button type="button" class="btn btn-danger " onclick="location.href='https://www.google.com/';">Hey!</button>
-				</div>
-				<footer class="footer">
-					developed with <span>🧡</span> by S A R A N
-				</footer>
-			</div>
-		</div>
-	</div>
+
+		<h1 class="one">NA</h2>
+		<h1 class="two">RAS</h1>
+		<h1 class="three">.XYZ</h1>
+		
+	</div>	
+	<h1 class="zero foot">designed by S A R A N .</h1>
+
+<script>
+	const text1 = baffle(".one");
+	const text2 = baffle(".two");
+	const text3 = baffle(".three");
+	const text4 = baffle(".zero");
+	text1.set({
+
+		characters: '░░█ █░<▓▒█▓',
+		speed: 200
+	});
+
+	text1.start();
+	text1.reveal(120000);
+
+	text2.set({
+
+		characters: '░░█ █░<▓▒█▓',
+		speed: 200
+	});
+
+	text2.start();
+	text2.reveal(120000);
+
+	text3.set({
+
+		characters: '░░█ █░<▓▒█▓',
+		speed: 200
+	});
+
+	text3.start();
+	text3.reveal(120000);
+
+	text4.set({
+
+		characters: '░░█ █░<▓▒█▓',
+		speed: 200
+	});
+
+	text4.start();
+	text4.reveal(120000);
+
+</script>
 </body>
 </html>

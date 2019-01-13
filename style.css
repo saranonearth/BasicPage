@@ -1,44 +1,130 @@
-/*Components used :
-==============================================
-Fonts : 
-font-family: 'Anton', sans-serif;
-font-family: 'Open Sans Condensed', sans-serif;
+*{
+	padding:0;
+	margin: 0;
 
-Colours:
-
-red : #FE394D;
-yellow : #FFD700;
-==============================================*/
-body{
-	background-color: #FFD700;
 }
 
-.mainheading{
-	font-family: 'Anton', sans-serif;
-	color:  #FE394D;
+body {
+	background-color: #EDC94F;
+	width: 100%;
+	height: 100vh;
+}
+
+@media only screen 
+  and (max-device-width: 760px){
+.container {
+
+
+	position: absolute;
+	left: 10%;
+	font-family: 'Russo One', sans-serif;
+	top: 30%;
+	line-height: 100px;
+}
+
+
+.one {
+	font-size: 120px;
+
+}
+	
+
+.two {
+	
+	font-size: 120px;
+	
+
+	
+}
+.three {
+	
+	font-size:120px;
+ 
+	
+}
+
+.zero {
+	font-family: 'Thasadith', sans-serif;
 	text-transform: uppercase;
+	letter-spacing: 20px;
+	font-size: 20px;
+
+	position: absolute;
+	top: 20%;
+	left:45%;
+	transform: translate(-50%,-50%);
+}
+
+span {
+	font-weight: 1000;
+}
+
+
+.foot {
+	position: absolute;
+	top: 90%;
+	font-size: 10px;
+	letter-spacing: 5px;
 	text-align: center;
-	font-size: 6rem;
-	line-height: 90px;
-	margin-top: 270px;
+}
 }
 
-.subheading{
-	font-family: 'Open Sans Condensed', sans-serif;
+@media only screen 
+  and (min-device-width: 760px){
+
+
+
+.one {
+	font-size: 200px;
+	margin-left: 115px;
+}
+	
+
+.two {
+	
+	font-size: 200px;
+	margin-left:20px;
+
+	
+}
+.three {
+	
+	font-size:200px;
+	margin-left: -30px; 
+	
+}
+
+.zero {
+	font-family: 'Thasadith', sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 20px;
+	font-size: 20px;
+
+	position: absolute;
+	top: 50%;
+	left:45%;
+	transform: translate(-50%,-50%);
+	
+}
+
+
+	.container {
+
+	margin-left: 0;
+
+	position: absolute;
+	right: 0;
+	font-family: 'Russo One', sans-serif;
+	top: 16%;
+	line-height: 150px;
+}
+
+.foot {
+	position: absolute;
+	top: 90%;
+	font-size: 10px;
 	text-align: center;
-	font-size: 1.2rem;
-	margin-top: -20px;
+	letter-spacing: 9px;
+}
 }
 
-.btn-danger{
-	border-color: none;
-	border-radius: 0;
-	border: none;
-	background-color: #FE394D;
-
-}
-
-footer {
-	text-align: center;
-	margin-top: 270px;
-}
